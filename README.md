@@ -1,3 +1,5 @@
+# Check the implementation folder and then navigate to src folder and please try to run the make file in your system 
+# the dev is done for (windows)
 # SDLC Activity Based Learning
 
 Visit [Pages for Report -optional](using github.io option)
