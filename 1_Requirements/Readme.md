@@ -1,39 +1,62 @@
 # Requirements
 ## Introduction
- --- TBD 
 
-## Research
-![Description](Link to Pic)
--- Content 
+### Dark Samurai Within
+
+This is a “simple memory and response test “game. The game request the user’s name as an input.
+For example, let the user enter the name "chan". Then the game would start and he will be presented with 3 blocks in which one will contain the first character of his name. And the user should press 1 or 2 or 3 according the location in which the character is present. If he pressed the correct location number, he will be put up with next 3 blocks in which one will contain the next character in his name provided.
+
+![an_example](https://user-images.githubusercontent.com/55622748/114958409-90f65f80-9e80-11eb-8960-02e5444eb3ec.png)
+
+And the same thing will continue till all the characters in his name is completed.
+
+<!-- ## Research -->
+<!-- ![Description](Link to Pic) -->
+<!-- -- Content -->
+
 ## Cost and Features
-![Description](Link to Pic)
--- Content 
+
+Since it is a prototype, and me being the only developer, I take the cost as the hours (time) that each feature takes for developing it. 
+We can see that the game is very simple to understand. The core of the game play is validating the user input based on initial conditions.
+
+| S NO | FEATURE              | COST (INR) | TIME (IN HRS) |
+| ---- | -------------------- | ---------- | ------------- |
+| 1    | Core game play       | 0          | 8             |
+| 2    | Game play with story | 0          | 4             |
+| 3    | Adding score card    | 0          | 2             |
+|      |
+
 ## Defining Our System
-    -- TBD
+
+The system is a simple command line game. 
+That is the user will enter his name, and will press keys during the game play. The user will interact with the game through the display and keyboard only.
+
+    
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+
+![SWOT_ANALYSIS](https://user-images.githubusercontent.com/55622748/114958696-2c87d000-9e81-11eb-97ed-9dd64838df40.png)
 
 # 4W&#39;s and 1&#39;H
 
 ## Who:
 
-**TBD**
+**The game play is targeted for the people who want to test their cognitive abilities – both memory and responsiveness.**
 
 ## What:
 
-**TBD**
+**This is a simple game that will make the user to apply their cognitive skills. This game above a specific difficulty (for example when a user inputs a string of length 15 characters) it feels very difficult to play. So, it caters to all the individuals, right from people who have low level of cognitive ability to people who have high level of cognitive ability.**
 
 ## When:
 
-**TBD**
+**This game tests out individual’s cognitive ability. So, this which can be played irrespective of what age they are.**
 
 ## Where:
 
-**TBD**
+**This game can run in just the command line environment, which now every major OS supports.**
 
 ## How:
 
-**TBD**
+**User needs to press an integer that indicates to the game that he has selected the character among a list of characters being displayed. User interacts with the gameplay through the keyboard.**
 
 # Detail requirements
 ## High Level Requirements:
