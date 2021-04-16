@@ -16,7 +16,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <ctype.h>
-#include <conio.h>
+//#include <conio.h>
 #include <stdlib.h>
 
 char get_input();
@@ -142,12 +142,15 @@ User_info_status getUsername(User_info * User){
 
 char get_input(){
 	char ch = 0;
-	while(1){
-		if (kbhit()){
-			ch = getch();
-			return ch;
-		}
-	} 
+	// while(1){
+	// 	if (kbhit()){
+	// 		ch = getch();
+	// 		return ch;
+	// 	}
+	// } 
+	ch = getchar();
+	ch = getchar();
+	return ch;
 }
 
 User_info_status getUserdigit(User_info * User){
