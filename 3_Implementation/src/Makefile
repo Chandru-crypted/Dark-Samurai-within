@@ -73,14 +73,23 @@ all : test_main.exe
 	@echo The file is executing... 
 	@test_main.exe
 
-test_main.exe : test_main.o char_operations.o
-	@gcc -o test_main.exe test_main.o char_operations.o
+test_main.exe : test_main.o char_operations.o user.o frames.o game_engine.o
+	@gcc -o test_main.exe test_main.o char_operations.o user.o frames.o game_engine.o
 
 test_main.o : test_main.c 
 	@gcc -c test_main.c
 
 char_operations.o : char_operations.c 
 	@gcc -c char_operations.c
+
+user.o : user.c
+	@gcc -c user.c
+
+frames.o : frames.c
+	@gcc -c frames.c
+
+game_engine.o : game_engine.c
+	@gcc -c game_engine.c
 
 # i used del keyword as makefile uses cmd so del keyword
 clean : 

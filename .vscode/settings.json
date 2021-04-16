@@ -1,5 +1,6 @@
 {
 	"files.associations": {
-		"char_operations.h": "c"
+		"char_operations.h": "c",
+		"conio.h": "c"
 	}
 }

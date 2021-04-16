@@ -89,7 +89,7 @@ void randomize_chars_to_be_put_into_box(char chars_to_be_put_into_boxes[len_of_c
 	
 }
 
-void build_chars_to_be_put_into_box(char chars_to_be_put_into_boxes[len_of_chars_to_be_put_into_boxes], char name[len_of_chars_to_be_put_into_boxes], char alphabet_bag[len_of_alphabet_bag]){
+void build_chars_to_be_put_into_box(char chars_to_be_put_into_boxes[len_of_chars_to_be_put_into_boxes], char* name, char alphabet_bag[len_of_alphabet_bag]){
 	int j = 0, start = 0, stop = 0; // for chars_to_be_put_into_boox iterator
 	for(int i = 0; name[i] != '\0'; i++){
 		start = j;
